@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 https://github.com/kaushikshetti/Crypto-Frontend/blob/main/Capture.PNG
 
-<img src="https://github.com/kaushikshetti/Crypto-Frontend/blob/main/Capture.PNG" alt="Frontend Logo" width="200"/>
+<img src="https://github.com/kaushikshetti/Crypto-Frontend/blob/main/Capture.PNG" alt="Frontend Logo" width="2000"/>
