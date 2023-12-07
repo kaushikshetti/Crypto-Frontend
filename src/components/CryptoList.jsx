@@ -5,17 +5,13 @@ function CryptoList() {
   const [data, setData] = useState({ categories: [], maxMarketCap: 0 });
 
   useEffect(() => {
-    // Function to handle SSE messages and update state
     const handleSSEMessage = (event) => {
       const newData = JSON.parse(event.data);
       setData(newData);
     };
 
-    // Create an EventSource for SSE updates
     const eventSource = new EventSource("http://localhost:3000/sse");
     eventSource.onmessage = handleSSEMessage;
-
-    // Cleanup on unmount
     return () => {
       eventSource.close();
     };
